@@ -30,5 +30,5 @@ async function syncModels() {
     console.error('Error syncing models with the database:', error);
   }
 }
-
+console.log('InsideModels');
 export {Account,syncModels}
