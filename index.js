@@ -66,5 +66,5 @@ async function performTransactionManaged(){
     console.error('Transaction failed:', error);
   }
 }
-
+console.log('Inside index.js');
 // performTransactionManaged();
