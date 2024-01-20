@@ -5,4 +5,5 @@ const sequelizeInstance = new Sequelize('TransactionDB', 'root', '', {
   logging: false,
 });
 
+
 export {sequelizeInstance};
