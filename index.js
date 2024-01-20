@@ -67,7 +67,4 @@ async function performTransactionManaged(){
   }
 }
 
-function foo(){
-  console.log('foo');
-}
 // performTransactionManaged();
