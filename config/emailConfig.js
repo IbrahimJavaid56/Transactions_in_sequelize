@@ -6,4 +6,8 @@ const sequelizeInstance = new Sequelize('TransactionDB', 'root', '', {
 });
 
 
+function bar(){
+  console.log('bar');
+}
+
 export {sequelizeInstance};
