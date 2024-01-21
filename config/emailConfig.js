@@ -5,5 +5,8 @@ const sequelizeInstance = new Sequelize('TransactionDB', 'root', '', {
   logging: false,
 });
 
+function addedFeatureA(){
+  console.log('inside feature A function');
+}
 
 export {sequelizeInstance};
